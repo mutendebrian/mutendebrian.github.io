@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="h-100" lang="en">
 
-  <head>
+<head>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125434827-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125434827-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-125434827-1');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-125434827-1');
+    </script>
 
 
     <meta charset="utf-8">
@@ -19,509 +22,62 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Build a beautiful and affordable website| Website Design Kenya | kazdesigns.co.ke</title>
+    <title>Affordable Web Designers In Kenya | Create A Website In Kenya | Kaz Designs</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/agency.css" rel="stylesheet">
-  
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- scroll depth -->
-	<script src="https://raw.githubusercontent.com/robflaherty/jquery-scrolldepth/master/jquery.scrolldepth.min.js"></script>
-	<script>
-		jQuery(function() {
-  			jQuery.scrollDepth({elements: ['#services', '#portfolio', '#about', '#team']});
-		});
-	</script>
+    <link href="css/clean-blog.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body id="page-top">
+<body class="h-100" id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Kaz Designs</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars"></i>
+    <div class="bgimg h-100">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="https://kazdesigns.co.ke">Kaz Designs</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <svg class="icon icon-menu"><use xlink:href="symbol-defs.svg#icon-menu"></use></svg>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in">Welcome To Kaz Designs!</div>
-          <div class="intro-heading text-uppercase">We build websites</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
-        </div>
-      </div>
-    </header>
-
-    <!-- Services -->
-    <section id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Services</h2>
-            <h3 class="section-subheading text-muted">At Kaz Designs, we build websites and online shops that are:-</h3>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-lightbulb fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Beautiful</h4>
-            <p class="text-muted">We use <a href="https://material.io/design" target="_blank">Material Design</a> and other premium technologies to build beautiful websites such as this one.</p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Responsive</h4>
-            <p class="text-muted">All our websites look great whether you view them on mobile devices or desktops.</p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Secure</h4>
-            <p class="text-muted"> You get a free SSL certificate whenever you use our services to build a website. This means that both Google and your visitors will trust your website more.</p>
-          </div>
-        </div>
-
-        <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-search fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">On Google</h4>
-            <p class="text-muted">We will add your website to Google for free. This ensures that your customers can find you faster.</p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-star fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Fast</h4>
-            <p class="text-muted">We use CDNs and our own set of custom enhancers to ensure that the website we build for you loads as fast as possible hence ranks higher in Google search results.</p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-registered fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Ever Green</h4>
-            <p class="text-muted"> We use the <a href="https://cloud.google.com" target="_blank">Google Cloud Platform</a> to host your website meaning that your website will never go offline or crash. This is the same service that hosts Google and all it's services.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Portfolio Grid -->
-    <section class="bg-light" id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">A few of the websites that we have built.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/mandm.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Merry And Memories</h4>
-              <p class="text-muted">Tours Website</p>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/kazdesigns.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Kaz Designs</h4>
-              <p class="text-muted">Design Agency</p>
+        </nav>
+
+        <!-- Header -->
+        <div class="container" style="
+        top: 50%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    ">
+            <div class="intro-text">
+                <h1>Web Design Kenya</h1>
+                <p>Looking for an affordable web developer in Kenya? Get a website from as low as 5000.</p>
+                <a class="btn btn-danger btn-xl mb-2 mb-sm-0" href="contact">Request a quote</a>
+                <a class="btn btn btn-outline-light btn-xl" href="portfolio">View sample websites</a>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/ajax-live-search.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Ajax Live Search</h4>
-              <p class="text-muted">WordPress Plugin</p>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-
-    <!-- About -->
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">About</h2>
-            <h3 class="section-subheading text-muted">KazDesigns.co.ke designs and builds websites in addition to marketing them. Here is how it all started.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>2015-2016</h4>
-                    <h4 class="subheading">Our Humble Beginnings</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-dark">Straight out of high school, we decided to venture into online E-Commerce. The problem was that most web design companies were either too expensive or built ugly websites.</p>
-                    <p class="text-dark">That's when we decided to learn how to build websites. Kaz took a web development course, while Elo took a graphic design course and Mel took an online marketing course.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>October 2016</h4>
-                    <h4 class="subheading">An Agency is Born</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-dark">After completing our online courses, we decide to open our own website design agency.</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>January 2017</h4>
-                    <h4 class="subheading">Expansion</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-dark">We expand our business into more services such as logo designing and social media marketing.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>Today<h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-dark">As of today we have built lot's of websites for both small and corporate clients. Let's build your website next or refer a client to us and get 10% of the amount they pay.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4><a href="#contact" class="text-light">Be Part
-                    <br>Of Our
-                    <br>Story!</a></h4>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Team -->
-    <section class="bg-light" id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-            <h3 class="section-subheading text-muted">Below are our team members.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/elo.jpg" alt="">
-              <h4>Elo</h4>
-              <p class="text-muted">Visuals Engineer</p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/kaz-1.jpg" alt="">
-              <h4>Kaz</h4>
-              <p class="text-muted">CTO</p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/mel.jpg" alt="">
-              <h4>Mel</h4>
-              <p class="text-muted">Happiness Engineer</p>
-
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">KazDesigns.co.ke is now hiring customer support reps and web designers. Please <a href="#contact">contact us</a> for more information on how to apply.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Clients -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Call us on <a onClick="gtag('event', 'contact', { method : 'Phone', 'event_label' : 'Phone' });" href="tel:+254735806330">+254 735 806330</a> or <a onClick="gtag('event', 'contact', { method : 'WhatsApp', 'event_label' : 'WhatsApp' });" href="https://wa.me/254735806330?text=Hello!%20I%20need%20a%20website%F0%9F%92%AA%F0%9F%8F%BB">WhatsApp +254 735 806330</a>.</h3>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; KazDesigns.co.ke 2018</span>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a onClick="gtag('event', 'share', { method : 'Twitter' });" href="https://twitter.com/share?url=https://kazdesigns.co.ke">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a onClick="gtag('event', 'share', { method : 'Facebook' });" href="http://www.facebook.com/sharer.php?u=https://kazdesigns.co.ke">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a onClick="gtag('event', 'share', { method : 'Google Plus' });" href="https://plus.google.com/share?url=https://kazdesigns.co.ke">
-                  <i class="fab fa-google"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <a href="privacy">Privacy Policy</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="terms">Terms of Use</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Portfolio Modals -->
-
-    <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Merry And Memories</h2>
-                  <p class="item-intro text-muted">A travel and tours website where clients can book tours online.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/mandm.png" alt="">
-                  <ul class="list-inline">
-                    <li>Date: September 2018</li>
-                    <li>Link: <a href="https://merryandmemories.co.ke">https://merryandmemories.co.ke</a></li>
-                    <li>Category: Tours</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-
-    <!-- Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Kaz Designs</h2>
-                  <p class="item-intro text-muted">An online design agency.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/kazdesigns.png" alt="">
-                  <ul class="list-inline">
-                    <li>Date: October 2016</li>
-                    <li>Link: <a href="https://kazdesigns.co.ke">https://kazdesigns.co.ke</a></li>
-                    <li>Category: Online Agency</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Ajax Live Search</h2>
-                  <p class="item-intro text-muted">An online shop.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/ajax-live-search.png" alt="">                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Link: <a href="https://ajaxlivesearch.xyz">https://ajaxlivesearch.xyz</a></li>
-                    <li>Category: Online shop</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts @see agency.js -->
-    <script>
-      !function(o){"use strict";o('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function(){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var a=o(this.hash);if((a=a.length?a:o("[name="+this.hash.slice(1)+"]")).length)return o("html, body").animate({scrollTop:a.offset().top-54},1e3,"easeInOutExpo"),!1}}),o(".js-scroll-trigger").click(function(){o(".navbar-collapse").collapse("hide")}),o("body").scrollspy({target:"#mainNav",offset:56});var a=function(){100<o("#mainNav").offset().top?o("#mainNav").addClass("navbar-shrink"):o("#mainNav").removeClass("navbar-shrink")};a(),o(window).scroll(a),o(".portfolio-modal").on("show.bs.modal",function(a){o(".navbar").addClass("d-none")}),o(".portfolio-modal").on("hidden.bs.modal",function(a){o(".navbar").removeClass("d-none")})}(jQuery);
-    </script>
-
-  </body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/svgxuse.js"></script>
+</body>
 
 </html>
